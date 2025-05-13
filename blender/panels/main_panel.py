@@ -45,6 +45,8 @@ class MainPanel(bpy.types.Panel):
         col = box.column()
         col.operator("auto_poser.install_dependencies", text="Install Dependencies (May take a while.)")
         col.label(text="(Restart Blender after installation.)", icon="ERROR")
+        col.label(text="(Restart Blender after installation.)", icon="ERROR")
+        col.label(text="(Restart Blender after installation.)", icon="ERROR")
 
     def _draw_navigation_buttons(self, layout):
         row = layout.row(align=True)
