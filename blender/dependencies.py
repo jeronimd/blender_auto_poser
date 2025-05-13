@@ -47,7 +47,8 @@ class Dependencies:
 
         if dependencies_installed:
             self.logger.debug("Dependencies are installed")
-            self.dependencies_installed = True
+            self.dependencies_installed = False
+            # self.dependencies_installed = True
         else:
             self.logger.warning("Dependencies are not installed")
             self.dependencies_installed = False
