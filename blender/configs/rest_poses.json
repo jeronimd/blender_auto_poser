@@ -1,0 +1,622 @@
+{
+  "Metarig": {
+    "pelvis": {},
+    "spine001": {},
+    "spine002": {},
+    "spine003": {},
+    "neck": {},
+    "head": {},
+    "shoulder_l": {},
+    "upperarm_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": 29.5
+        },
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": 11
+        }
+      ]
+    },
+    "forearm_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -21
+        },
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": 5
+        }
+      ]
+    },
+    "hand_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": 10
+        }
+      ]
+    },
+    "index01_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -20
+        }
+      ]
+    },
+    "index02_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "index03_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "middle01_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -20
+        }
+      ]
+    },
+    "middle02_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "middle03_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "ring01_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -20
+        }
+      ]
+    },
+    "ring02_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "ring03_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "pinky01_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -30
+        }
+      ]
+    },
+    "pinky02_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "pinky03_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "thumb01_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": 15
+        },
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": 5
+        }
+      ]
+    },
+    "thumb02_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": 15
+        },
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -15
+        }
+      ]
+    },
+    "thumb03_l": {},
+    "shoulder_r": {},
+    "upperarm_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": -29.5
+        },
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": 11
+        }
+      ]
+    },
+    "forearm_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -21
+        },
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": -5
+        }
+      ]
+    },
+    "hand_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": 10
+        }
+      ]
+    },
+    "index01_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -20
+        }
+      ]
+    },
+    "index02_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "index03_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "middle01_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -20
+        }
+      ]
+    },
+    "middle02_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "middle03_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "ring01_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -20
+        }
+      ]
+    },
+    "ring02_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "ring03_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "pinky01_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -30
+        }
+      ]
+    },
+    "pinky02_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "pinky03_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -10
+        }
+      ]
+    },
+    "thumb01_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": -15
+        },
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": 5
+        }
+      ]
+    },
+    "thumb02_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": -15
+        },
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -15
+        }
+      ]
+    },
+    "thumb03_r": {},
+    "upperleg_l": {},
+    "lowerleg_l": {},
+    "foot_l": {},
+    "toe_l": {},
+    "upperleg_r": {},
+    "lowerleg_r": {},
+    "foot_r": {},
+    "toe_r": {}
+  },
+  "Daz": {
+    "pelvis": {},
+    "spine001": {},
+    "spine002": {},
+    "spine003": {},
+    "neck": {},
+    "head": {},
+    "shoulder_l": {},
+    "upperarm_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": 45
+        },
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -2
+        }
+      ]
+    },
+    "forearm_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -12.5
+        }
+      ]
+    },
+    "hand_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": 10
+        }
+      ]
+    },
+    "index01_l": {},
+    "index02_l": {},
+    "index03_l": {},
+    "middle01_l": {},
+    "middle02_l": {},
+    "middle03_l": {},
+    "ring01_l": {},
+    "ring02_l": {},
+    "ring03_l": {},
+    "pinky01_l": {},
+    "pinky02_l": {},
+    "pinky03_l": {},
+    "thumb01_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": 15
+        },
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": 5
+        }
+      ]
+    },
+    "thumb02_l": {},
+    "thumb03_l": {},
+    "shoulder_r": {},
+    "upperarm_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": -45
+        },
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -2
+        }
+      ]
+    },
+    "forearm_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": -12.5
+        }
+      ]
+    },
+    "hand_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": 10
+        }
+      ]
+    },
+    "index01_r": {},
+    "index02_r": {},
+    "index03_r": {},
+    "middle01_r": {},
+    "middle02_r": {},
+    "middle03_r": {},
+    "ring01_r": {},
+    "ring02_r": {},
+    "ring03_r": {},
+    "pinky01_r": {},
+    "pinky02_r": {},
+    "pinky03_r": {},
+    "thumb01_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": -15
+        },
+        {
+          "space": "LOCAL",
+          "axis": "X",
+          "degrees": 5
+        }
+      ]
+    },
+    "thumb02_r": {},
+    "thumb03_r": {},
+    "upperleg_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Y",
+          "degrees": 5
+        },
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": 2.5
+        }
+      ]
+    },
+    "lowerleg_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Y",
+          "degrees": 1.9
+        }
+      ]
+    },
+    "foot_l": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Y",
+          "degrees": 5
+        },
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": 6.5
+        }
+      ]
+    },
+    "toe_l": {},
+    "upperleg_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Y",
+          "degrees": -5
+        },
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": -2.5
+        }
+      ]
+    },
+    "lowerleg_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Y",
+          "degrees": -1.9
+        }
+      ]
+    },
+    "foot_r": {
+      "rotation_mode": "YXZ",
+      "rotations": [
+        {
+          "space": "LOCAL",
+          "axis": "Y",
+          "degrees": -5
+        },
+        {
+          "space": "LOCAL",
+          "axis": "Z",
+          "degrees": -6.5
+        }
+      ]
+    },
+    "toe_r": {}
+  }
+}

@@ -1,0 +1,5 @@
+data/*
+poser/models/*
+__pycache__
+.vscode
+*.ckpt
