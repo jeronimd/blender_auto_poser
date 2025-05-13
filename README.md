@@ -18,7 +18,7 @@ ProtoRes is licensed for non-commercial academic research purposes only<br>
 }
 ```
 ## Download Addon
-
+https://drive.google.com/file/d/1_b3j66wFmAjMd562oWCS3dd7EguTcosU/view?usp=sharing
 
 ## Environment Setup
 
