@@ -5,14 +5,14 @@ Based on [ProtoRes: Proto-Residual Network for Pose Authoring via Learned Invers
 Original paper by Boris N. Oreshkin, Florent Bocquelet, Félix G. Harvey, Bay Raitt, Dominic Laflamme<br>
 ProtoRes is licensed for non-commercial academic research purposes only<br>
 
-
-
 ## Download Addon
+
 https://drive.google.com/file/d/1_b3j66wFmAjMd562oWCS3dd7EguTcosU/view?usp=sharing
 
 ## Download Trained Model
+
 You can also download the github repository and the model separately<br>
-All you have to do then is place the *.ckpt file in the ```poser/models/``` folder<br>
+All you have to do then is place the \*.ckpt file in the `poser/models/` folder<br>
 https://drive.google.com/file/d/1_GPCAHbvPypPOmciImcYQJ5uPX45hHbx/view?usp=sharing
 
 ## Citation
@@ -25,10 +25,12 @@ https://drive.google.com/file/d/1_GPCAHbvPypPOmciImcYQJ5uPX45hHbx/view?usp=shari
   year={2022}
 }
 ```
-### Training
 
-## Environment Setup
-This is only needed if you want to train your own model<br>
+## Training
+This is not needed to use the addon, but if you want to train the model yourself, you can follow the instructions below
+
+### Environment Setup
+
 
 ```bash
 # Python version (Blender uses Python 3.11)
@@ -49,9 +51,7 @@ pip install mathutils
 pip install fake-bpy-module
 ```
 
-## Running the Model
-
-### Training
+### Running the Model
 
 ```bash
 # Start training
@@ -71,5 +71,3 @@ tensorboard --logdir=poser\models
 http://localhost:6006/
 http://127.0.0.1:6006/
 ```
-
-
