@@ -7,13 +7,13 @@ ProtoRes is licensed for non-commercial academic research purposes only<br>
 
 ## Download Addon
 
-https://drive.google.com/file/d/1_b3j66wFmAjMd562oWCS3dd7EguTcosU/view?usp=sharing
+https://drive.google.com/file/d/1d4nbZ28tMvphEE6aFuggEFRlZaI3lLb5/view?usp=sharing
 
 ## Download Trained Model
 
 You can also download the github repository and the model separately for security reasons<br>
 All you have to do then is place the \*.ckpt file in the `poser/models/` folder<br>
-https://drive.google.com/file/d/1d4nbZ28tMvphEE6aFuggEFRlZaI3lLb5/view?usp=sharing
+https://drive.google.com/file/d/1_GPCAHbvPypPOmciImcYQJ5uPX45hHbx/view?usp=sharing
 
 ## Citation
 
