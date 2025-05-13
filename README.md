@@ -11,6 +11,8 @@ ProtoRes is licensed for non-commercial academic research purposes only<br>
 https://drive.google.com/file/d/1_b3j66wFmAjMd562oWCS3dd7EguTcosU/view?usp=sharing
 
 ## Download Trained Model
+You can also download the github repository and the model separately<br>
+All you have to do then is place the *.ckpt file in the ```poser/models/``` folder<br>
 https://drive.google.com/file/d/1_GPCAHbvPypPOmciImcYQJ5uPX45hHbx/view?usp=sharing
 
 ## Citation
@@ -23,7 +25,10 @@ https://drive.google.com/file/d/1_GPCAHbvPypPOmciImcYQJ5uPX45hHbx/view?usp=shari
   year={2022}
 }
 ```
+### Training
+
 ## Environment Setup
+This is only needed if you want to train your own model<br>
 
 ```bash
 # Python version (Blender uses Python 3.11)
