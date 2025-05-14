@@ -5,9 +5,8 @@ Based on [ProtoRes: Proto-Residual Network for Pose Authoring via Learned Invers
 Original paper by Boris N. Oreshkin, Florent Bocquelet, Félix G. Harvey, Bay Raitt, Dominic Laflamme<br>
 ProtoRes is licensed for non-commercial academic research purposes only<br>
 
-
-![Demo Animation](_gifs/handstand.gif)
-![Demo Animation](_gifs/crawll.gif)
+<img src="_gifs/handstand.gif" width="214"/>
+<img src="_gifs/crawll.gif" width="300"/>
 
 ## Download Addon
 
@@ -31,10 +30,10 @@ https://drive.google.com/file/d/1_GPCAHbvPypPOmciImcYQJ5uPX45hHbx/view?usp=shari
 ```
 
 ## Training
+
 This is not needed to use the addon, but if you want to train the model yourself, you can follow the instructions below
 
 ### Environment Setup
-
 
 ```bash
 # Python version (Blender uses Python 3.11)
