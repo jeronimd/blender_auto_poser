@@ -6,7 +6,8 @@ Original paper by Boris N. Oreshkin, Florent Bocquelet, Félix G. Harvey, Bay Ra
 ProtoRes is licensed for non-commercial academic research purposes only<br>
 
 
-
+![Demo Animation](_gifs/handstand.gif)
+![Demo Animation](_gifs/crawll.gif)
 
 ## Download Addon
 
