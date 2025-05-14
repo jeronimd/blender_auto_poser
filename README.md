@@ -5,8 +5,6 @@ Based on [ProtoRes: Proto-Residual Network for Pose Authoring via Learned Invers
 Original paper by Boris N. Oreshkin, Florent Bocquelet, Félix G. Harvey, Bay Raitt, Dominic Laflamme<br>
 ProtoRes is licensed for non-commercial academic research purposes only<br>
 
-<img src="_gifs/handstand.gif" width="214"/>
-<img src="_gifs/crawll.gif" width="300"/>
 
 ## Download Addon
 
