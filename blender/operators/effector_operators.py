@@ -1,5 +1,7 @@
 import bpy
 
+from ...utils.helper import get_armature_from_object
+
 
 class AddLocationEffector(bpy.types.Operator):
     bl_idname = "auto_poser.add_location_effector"
@@ -7,7 +9,8 @@ class AddLocationEffector(bpy.types.Operator):
     bone_name: bpy.props.StringProperty()
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}
@@ -25,7 +28,8 @@ class RemoveLocationEffector(bpy.types.Operator):
     index: bpy.props.IntProperty()
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}
@@ -42,7 +46,8 @@ class AddRotationEffector(bpy.types.Operator):
     bone_name: bpy.props.StringProperty()
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}
@@ -60,7 +65,8 @@ class RemoveRotationEffector(bpy.types.Operator):
     index: bpy.props.IntProperty()
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}
@@ -77,7 +83,8 @@ class AddLookAtEffector(bpy.types.Operator):
     bone_name: bpy.props.StringProperty()
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}
@@ -95,7 +102,8 @@ class RemoveLookAtEffector(bpy.types.Operator):
     index: bpy.props.IntProperty()
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}
@@ -116,7 +124,8 @@ class CreateSimpleLocationEffectors(bpy.types.Operator):
     index: bpy.props.IntProperty()
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}

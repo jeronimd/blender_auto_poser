@@ -1,5 +1,6 @@
 import bpy
 
+from ...utils.helper import get_armature_from_object
 from ..core.keyframes import keyframes_manager
 
 
@@ -8,7 +9,8 @@ class InsertKeyframes(bpy.types.Operator):
     bl_label = "Insert Keyframes"
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}

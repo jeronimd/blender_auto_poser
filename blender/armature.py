@@ -219,8 +219,8 @@ def register():
             current_scene.auto_poser_stored_armature = armature
             current_scene.auto_poser_stored_armature_name = armature.name
 
-    subscribe_to = bpy.types.LayerObjects, "active"
-    bpy.msgbus.subscribe_rna(key=subscribe_to, owner=_msgbus_owner, args=(), notify=auto_poser_on_selection_change)
+    # subscribe_to = bpy.types.LayerObjects, "active"
+    # bpy.msgbus.subscribe_rna(key=subscribe_to, owner=_msgbus_owner, args=(), notify=auto_poser_on_selection_change)
 
 
 def unregister():
@@ -231,4 +231,4 @@ def unregister():
     del bpy.types.Scene.auto_poser_stored_armature
     del bpy.types.Scene.auto_poser_stored_armature_name
 
-    bpy.msgbus.clear_by_owner(_msgbus_owner)
+    # bpy.msgbus.clear_by_owner(_msgbus_owner)

@@ -1,5 +1,6 @@
 import bpy
 
+from ...utils.helper import get_armature_from_object
 from ..core.empties import empties_manager
 
 
@@ -9,7 +10,8 @@ class CreateEmptiesOperator(bpy.types.Operator):
     bl_description = "Create key and predicted empties for selected bones"
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}
@@ -24,7 +26,8 @@ class DeleteEmptiesOperator(bpy.types.Operator):
     bl_description = "Delete all empties for the selected armature"
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}

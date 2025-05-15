@@ -67,8 +67,8 @@ def auto_poser_on_scene_update(*args):
     if not active_object.name.startswith(f"{empties_manager.prefix}_"):
         return
 
-    # armature = get_armature_from_object(active_object)
-    armature = bpy.context.scene.auto_poser_stored_armature
+    armature = get_armature_from_object(active_object)
+    # armature = bpy.context.scene.auto_poser_stored_armature
     if not armature:
         return
 
@@ -82,8 +82,8 @@ def auto_poser_on_timeline_update(*args):
     if not active_object:
         return
 
-    # armature = get_armature_from_object(active_object)
-    armature = bpy.context.scene.auto_poser_stored_armature
+    armature = get_armature_from_object(active_object)
+    # armature = bpy.context.scene.auto_poser_stored_armature
     if not armature:
         return
 

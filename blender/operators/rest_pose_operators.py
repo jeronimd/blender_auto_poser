@@ -1,5 +1,6 @@
 import bpy
 
+from ...utils.helper import get_armature_from_object
 from ..core.rest_pose import rest_pose_manager
 
 
@@ -9,7 +10,8 @@ class ChangeRestPose(bpy.types.Operator):
     bl_description = "This is a hacky way of doing it so don't expect it much from it."
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}

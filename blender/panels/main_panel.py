@@ -22,8 +22,8 @@ class MainPanel(bpy.types.Panel):
 
         self._draw_navigation_buttons(layout)
 
-        # armature = get_armature_from_object(context.active_object)
-        armature = context.scene.objects.get(context.scene.auto_poser_stored_armature_name)
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.objects.get(context.scene.auto_poser_stored_armature_name)
 
         panel_index = context.scene.auto_poser_chosen_panel
         if not armature and panel_index in [0, 1]:

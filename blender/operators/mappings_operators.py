@@ -1,6 +1,7 @@
 import bpy
 
 from ..core.mappings import mappings_manager
+from ...utils.helper import get_armature_from_object
 
 
 class AddMapping(bpy.types.Operator):
@@ -16,7 +17,8 @@ class AddMapping(bpy.types.Operator):
         self.layout.prop(self, "mapping_name")
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}
@@ -37,7 +39,8 @@ class RemoveMapping(bpy.types.Operator):
         return context.window_manager.invoke_confirm(self, event)
 
     def execute(self, context):
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}

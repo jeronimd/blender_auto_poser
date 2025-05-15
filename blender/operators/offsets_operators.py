@@ -9,8 +9,8 @@ class CalculateOffsets(bpy.types.Operator):
     bl_label = "Calculate Offsets"
 
     def execute(self, context):
-        # armature = get_armature_from_object(context.active_object)
-        armature = context.scene.auto_poser_stored_armature
+        armature = get_armature_from_object(context.active_object)
+        # armature = context.scene.auto_poser_stored_armature
         if not armature:
             self.report({'ERROR'}, "No armature selected")
             return {'CANCELLED'}
